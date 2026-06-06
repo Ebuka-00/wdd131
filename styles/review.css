@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    text-align: center;
+}
+
+.confirmation {
+    max-width: 600px;
+    margin: 5rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #0a4e8a;
+}
+
+footer {
+    margin-top: 2rem;
+    background: #0a4e8a;
+    color: white;
+    padding: 1rem;
+}
