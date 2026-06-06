@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valoura – Website Plan</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="siteplan.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+
+        <!-- Logo + Title -->
+        <div class="header-brand">
+          <img
+            src="valoura-logo.png"
+            alt="Valoura Logo"
+            class="header-logo"
+            width="160"
+            height="52"
+          />
+          <span class="header-title"><span>Valoura</span> Website Plan</span>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="header-nav" aria-label="Page sections">
+          <a href="#site-name">Site Name</a>
+          <a href="#purpose">Purpose</a>
+          <a href="#scenarios">Scenarios</a>
+          <a href="#colors">Colors</a>
+          <a href="#typography">Typography</a>
+          <a href="#wireframes">Wireframes</a>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" aria-label="Introduction">
+    <div class="container">
+      <div class="hero-badge">Web Development Course Project</div>
+      <h1>Valoura — Website Planning Document</h1>
+      <p>
+        A comprehensive site plan outlining the design, structure, and content strategy
+        for the Valoura job search and recruitment platform.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main class="section">
+    <div class="container">
+
+      <!-- ─── 1. SITE NAME ─── -->
+      <article class="card" id="site-name" aria-labelledby="h-site-name">
+        <div class="section-heading">
+          <div class="section-icon">&#127970;</div>
+          <h2 id="h-site-name">Site Name</h2>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-item">
+            <h3>Platform Name</h3>
+            <p><strong>Valoura</strong> — a modern job search and recruitment platform.</p>
+          </div>
+          <div class="info-item">
+            <h3>Domain (Proposed)</h3>
+            <p><strong>www.valoura.com</strong></p>
+          </div>
+          <div class="info-item">
+            <h3>Target Audience</h3>
+            <p>Job seekers of all experience levels and employers looking to hire qualified candidates.</p>
+          </div>
+          <div class="info-item">
+            <h3>Platform Type</h3>
+            <p>Web-based job board and applicant-employer matching service.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ─── 2. SITE PURPOSE ─── -->
+      <article class="card card-accent" id="purpose" aria-labelledby="h-purpose">
+        <div class="section-heading">
+          <div class="section-icon gold">&#127919;</div>
+          <h2 id="h-purpose">Site Purpose</h2>
+        </div>
+
+        <p>
+          Valoura is a digital job search and employment platform designed to bridge the gap between
+          talented job seekers and forward-thinking employers. The platform empowers candidates to
+          discover and apply for opportunities that match their skills and career goals, while
+          providing employers with efficient tools to attract and evaluate qualified applicants.
+        </p>
+
+        <p>Users will be able to:</p>
+
+        <ul class="feature-list" role="list">
+          <li>Create and manage personal accounts</li>
+          <li>Browse and search job listings by role, location, or industry</li>
+          <li>Upload and manage resumes and profile documents</li>
+          <li>View detailed job descriptions and company profiles</li>
+          <li>Apply for positions directly through the platform</li>
+          <li>Receive application status notifications</li>
+          <li>Post job openings (employer accounts)</li>
+          <li>Review and shortlist candidate applications</li>
+        </ul>
+      </article>
+
+      <!-- ─── 3. SCENARIOS ─── -->
+      <article class="card" id="scenarios" aria-labelledby="h-scenarios">
+        <div class="section-heading">
+          <div class="section-icon">&#128101;</div>
+          <h2 id="h-scenarios">Audience Scenarios</h2>
+        </div>
+
+        <p>
+          The following scenarios describe how different users might interact with the Valoura platform
+          to meet their goals.
+        </p>
+
+        <!-- Scenario 1 -->
+        <div class="scenario-card">
+          <div class="scenario-num">01</div>
+          <div>
+            <h3>How can I find entry-level software development jobs?</h3>
+            <p>
+              <strong>Scenario:</strong> Maria is a recent computer science graduate searching for her first
+              professional role. She visits Valoura, creates a free account, and uses the search bar to
+              filter listings by "Entry-Level" and "Software Development." The platform surfaces relevant
+              openings sorted by match score and location. Maria reads each job description, views company
+              profiles for culture fit, and bookmarks her favorites. When ready, she uploads her resume
+              and submits her application directly through the platform — receiving an email confirmation
+              and a status tracker in her dashboard.
+            </p>
+          </div>
+        </div>
+
+        <!-- Scenario 2 -->
+        <div class="scenario-card">
+          <div class="scenario-num">02</div>
+          <div>
+            <h3>How do I upload my resume and apply for jobs online?</h3>
+            <p>
+              <strong>Scenario:</strong> James is a mid-career professional returning to the job market
+              after a career break. He logs into Valoura and navigates to his Profile page, where he
+              finds the "Documents" section. He uploads a PDF version of his updated resume and adds a
+              short professional summary. When browsing a project manager listing he finds appealing,
+              James clicks "Quick Apply," selects his uploaded resume from the dropdown, writes a brief
+              cover note, and submits. His application appears instantly in the "My Applications" tab
+              with a "Pending Review" status.
+            </p>
+          </div>
+        </div>
+
+        <!-- Scenario 3 -->
+        <div class="scenario-card">
+          <div class="scenario-num">03</div>
+          <div>
+            <h3>How do employers post jobs and review applicants?</h3>
+            <p>
+              <strong>Scenario:</strong> Priya manages recruiting for a growing fintech startup. She
+              registers an employer account on Valoura, completes her company profile with a logo and
+              description, and clicks "Post a Job." She fills in the role title, responsibilities,
+              requirements, and compensation range, then publishes the listing. As applications arrive,
+              her dashboard displays candidate summaries with resume previews and match-score badges,
+              allowing her to shortlist, message, or decline applicants — all within a single workspace.
+            </p>
+          </div>
+        </div>
+
+      </article>
+
+      <!-- ─── 4. COLOR SCHEMA ─── -->
+      <article class="card card-accent" id="colors" aria-labelledby="h-colors">
+        <div class="section-heading">
+          <div class="section-icon gold">&#127912;</div>
+          <h2 id="h-colors">Color Schema</h2>
+        </div>
+
+        <p>
+          Valoura's color palette conveys trust, professionalism, and energy — essential qualities
+          for a platform where career decisions are made.
+        </p>
+
+        <div class="color-swatches">
+
+          <!-- Navy Blue -->
+          <div class="swatch">
+            <div class="swatch-block" style="background:#0A4E8A;" aria-label="Navy Blue color swatch"></div>
+            <div class="swatch-info">
+              <h3>Navy Blue — Primary</h3>
+              <span class="hex">#0A4E8A</span>
+              <p>Used for the site header, top navigation bar, primary action buttons, section borders,
+                 and the page footer. Communicates authority and trust.</p>
+            </div>
+          </div>
+
+          <!-- Gold -->
+          <div class="swatch">
+            <div class="swatch-block" style="background:#F4B400;" aria-label="Gold color swatch"></div>
+            <div class="swatch-info">
+              <h3>Gold — Accent</h3>
+              <span class="hex">#F4B400</span>
+              <p>Used for call-to-action highlights (e.g., "Apply Now" badges), decorative accents,
+                 scenario numbers, icon backgrounds, and divider elements. Adds warmth and urgency.</p>
+            </div>
+          </div>
+
+          <!-- White -->
+          <div class="swatch">
+            <div class="swatch-block" style="background:#FFFFFF; border:1px solid #EEF2F7;" aria-label="White color swatch"></div>
+            <div class="swatch-info">
+              <h3>White — Background</h3>
+              <span class="hex">#FFFFFF</span>
+              <p>Used for card backgrounds, content areas, form fields, and modal windows. Ensures
+                 readability and a clean, uncluttered interface.</p>
+            </div>
+          </div>
+
+          <!-- Off-White -->
+          <div class="swatch">
+            <div class="swatch-block" style="background:#F7F9FC; border:1px solid #EEF2F7;" aria-label="Off-White color swatch"></div>
+            <div class="swatch-info">
+              <h3>Off-White — Page Background</h3>
+              <span class="hex">#F7F9FC</span>
+              <p>Used as the overall page background to add subtle depth behind white cards
+                 and to reduce eye strain during long browsing sessions.</p>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- ─── 5. TYPOGRAPHY ─── -->
+      <article class="card" id="typography" aria-labelledby="h-typography">
+        <div class="section-heading">
+          <div class="section-icon">&#128196;</div>
+          <h2 id="h-typography">Typography</h2>
+        </div>
+
+        <p>
+          Valoura uses a deliberate two-font system that balances distinctive personality in headings
+          with clarity and broad compatibility in body text.
+        </p>
+
+        <div class="type-demo">
+
+          <div class="type-item">
+            <div class="font-label">Heading Font</div>
+            <div class="font-name font-poppins">Poppins</div>
+            <p class="font-usage">
+              Applied to all <strong>H1–H6 headings</strong>, navigation links, section titles, badges,
+              and labels. Weights used: 400 (light labels), 600 (subheadings), 700 (section titles),
+              and 800 (hero headline). Poppins' geometric, friendly letterforms reinforce Valoura's
+              modern and approachable brand identity.
+            </p>
+          </div>
+
+          <div class="type-item">
+            <div class="font-label">Body Font</div>
+            <div class="font-name font-arial" style="font-family:Arial,sans-serif;">Arial</div>
+            <p class="font-usage">
+              Applied to all <strong>body paragraphs</strong>, job descriptions, form labels, input
+              fields, and small helper text. Arial is a universally available, highly legible sans-serif
+              that ensures accessibility across all devices and operating systems without additional
+              font loading.
+            </p>
+          </div>
+
+        </div>
+
+        <hr class="divider" />
+
+        <div class="info-grid" style="margin-top:1.5rem;">
+          <div class="info-item">
+            <h3>Base Font Size</h3>
+            <p>16 px (1 rem) for body text. Scales up to 18 px on wider viewports.</p>
+          </div>
+          <div class="info-item">
+            <h3>Line Height</h3>
+            <p>1.7 for body text; 1.25 for headings to ensure tight, impactful display typography.</p>
+          </div>
+          <div class="info-item">
+            <h3>Accessibility</h3>
+            <p>All text meets WCAG 2.1 AA contrast ratios against their respective backgrounds.</p>
+          </div>
+          <div class="info-item">
+            <h3>Responsive Scaling</h3>
+            <p>Headings use <code>clamp()</code> for fluid sizing between mobile and desktop breakpoints.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ─── 6. WIREFRAMES ─── -->
+      <article class="card card-accent" id="wireframes" aria-labelledby="h-wireframes">
+        <div class="section-heading">
+          <div class="section-icon gold">&#128247;</div>
+          <h2 id="h-wireframes">Wireframes</h2>
+        </div>
+
+        <p>
+          The following text-based wireframes illustrate the intended layout of Valoura's homepage
+          for both <strong>mobile</strong> and <strong>desktop</strong> viewports. Each block
+          represents a distinct page section.
+        </p>
+
+        <div class="wireframe-grid">
+
+          <!-- MOBILE WIREFRAME -->
+          <div class="wireframe" role="img" aria-label="Mobile layout wireframe">
+            <div class="wireframe-title">&#128241; Mobile Layout (max-width: 480px)</div>
+            <div class="wireframe-body">
+
+              <div class="wf-block wf-nav">
+                ☰ &nbsp; [Logo] &nbsp; Valoura
+              </div>
+
+              <div class="wf-block wf-hero">
+                ╔══════════════════════╗<br/>
+                ║  HERO BANNER         ║<br/>
+                ║  "Find Your Next     ║<br/>
+                ║   Opportunity"       ║<br/>
+                ║  [Search Bar]        ║<br/>
+                ║  [ Browse Jobs ▶ ]   ║<br/>
+                ╚══════════════════════╝
+              </div>
+
+              <div class="wf-block wf-card">
+                ─── Featured Jobs ───<br/>
+                [Job Card 1]<br/>
+                [Job Card 2]<br/>
+                [Job Card 3]
+              </div>
+
+              <div class="wf-block wf-gray">
+                ─── How It Works ───<br/>
+                ① Create Account<br/>
+                ② Upload Resume<br/>
+                ③ Apply &amp; Track
+              </div>
+
+              <div class="wf-block wf-card">
+                ─── Testimonials ───<br/>
+                ❝ … quote … ❞<br/>
+                — User Name
+              </div>
+
+              <div class="wf-block wf-gold">
+                [ Sign Up Free — Get Hired ]
+              </div>
+
+              <div class="wf-block wf-footer">
+                Logo | Links | © Valoura
+              </div>
+
+            </div>
+          </div>
+
+          <!-- DESKTOP WIREFRAME -->
+          <div class="wireframe" role="img" aria-label="Desktop layout wireframe">
+            <div class="wireframe-title">&#128444;&#65039; Desktop Layout (min-width: 1024px)</div>
+            <div class="wireframe-body">
+
+              <div class="wf-block wf-nav">
+                [Logo] Valoura &nbsp;|&nbsp; Jobs &nbsp; Companies &nbsp; Employers &nbsp; Sign In &nbsp; [ Post a Job ]
+              </div>
+
+              <div class="wf-block wf-hero">
+                ╔══════════════════════════════════════════╗<br/>
+                ║  "Connect. Apply. Get Hired."            ║<br/>
+                ║  ┌─────────────────────────┬──────────┐  ║<br/>
+                ║  │  Job title or keyword   │ Search ▶ │  ║<br/>
+                ║  └─────────────────────────┴──────────┘  ║<br/>
+                ║  Popular: Software Dev · Marketing · UX  ║<br/>
+                ╚══════════════════════════════════════════╝
+              </div>
+
+              <div class="wf-block wf-gray" style="padding:.6rem 1rem; margin-bottom:.5rem;">
+                ─── Featured Jobs (3-column grid) ───
+              </div>
+
+              <div class="wf-row wf-row-3">
+                <div class="wf-card wf-block">
+                  [Job Card]<br/>Role · Company<br/>Location · Type
+                </div>
+                <div class="wf-card wf-block">
+                  [Job Card]<br/>Role · Company<br/>Location · Type
+                </div>
+                <div class="wf-card wf-block">
+                  [Job Card]<br/>Role · Company<br/>Location · Type
+                </div>
+              </div>
+
+              <div class="wf-block wf-gray" style="padding:.6rem 1rem; margin-bottom:.5rem; margin-top:.5rem;">
+                ─── How It Works (3-column icons) ───
+              </div>
+
+              <div class="wf-row wf-row-3">
+                <div class="wf-card wf-block">① Create Account</div>
+                <div class="wf-card wf-block">② Upload Resume</div>
+                <div class="wf-card wf-block">③ Apply &amp; Track</div>
+              </div>
+
+              <div class="wf-block wf-card" style="margin-top:.5rem;">
+                ─── Testimonials (2-column) ───<br/>
+                ❝ … testimonial one … ❞ &emsp; | &emsp; ❝ … testimonial two … ❞
+              </div>
+
+              <div class="wf-block wf-gold">
+                ════ Call to Action — [ Sign Up Free ]  &nbsp;  [ Post a Job ] ════
+              </div>
+
+              <div class="wf-block wf-footer">
+                [Logo] &nbsp; About · Careers · Privacy · Terms &nbsp;|&nbsp; Social Icons &nbsp; © 2025 Valoura
+              </div>
+
+            </div>
+          </div>
+
+        </div><!-- /wireframe-grid -->
+      </article>
+      <!-- /wireframes -->
+
+    </div><!-- /container -->
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>
+        <strong>Valoura</strong> Website Planning Document &nbsp;&bull;&nbsp;
+        Web Development Course Project &nbsp;&bull;&nbsp;
+        &copy; 2025 Valoura. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
