@@ -481,3 +481,60 @@ a:hover { color: var(--gold-dark); }
   .color-swatches{ flex-direction: column; }
   .scenario-card { flex-direction: column; gap: .5rem; }
 }
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Buttons */
+button {
+  background: var(--navy);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+/* Jobs Container */
+#jobsContainer {
+  display: grid;
+  gap: 1.5rem;
+}
+
+#search {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Success Message */
+#success {
+  margin-top: 1rem;
+  color: green;
+  font-weight: 600;
+}
