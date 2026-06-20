@@ -3,77 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Okubalu Ebuka Prince. A homepage demonstrating HTML, CSS, and JavaScript fundamentals.">
-
-    <meta name="author" content="Okubalu Ebuka Prince">
-
-    <title>WDD 131 – Dynamic Web Fundamentals – Okubalu Ebuka Prince</title>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/base.css">
-
-    <!-- JavaScript -->
-    <script src="scripts/getdates.js" defer></script>
+    <title>BookVerse</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-
 <body>
 
     <header>
-        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
-
+        <h1>📚 BookVerse</h1>
         <nav>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-
-            <a href="https://byupw.instructure.com/">Canvas</a>
-
-            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
-
-            <a href="#">Final Project</a>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
-        <h1>Okubalu Ebuka Prince</h1>
-
-        <section class="card">
-            <h2>About Me</h2>
-
-            <img src="images/profile.jpeg" alt="Profile picture">
-
-            <p>
-                I am a student learning web development and dynamic web fundamentals.
-                I enjoy coding, problem solving, and building websites.
-            </p>
+        <section class="hero">
+            <h2>Discover Your Next Great Read</h2>
+            <p>Explore books, reviews, and recommendations from readers.</p>
+            <button id="welcomeBtn">Get Started</button>
         </section>
 
-        <section class="card">
-            <h2>My Interests</h2>
-
-            <img src="images/interest.png" alt="Coding workspace">
-
-            <p>
-                My interests include web design, JavaScript programming,
-                responsive layouts, and learning modern technologies.
-            </p>
+        <section class="featured">
+            <h2>Featured Books</h2>
+            <div id="book-container"></div>
         </section>
     </main>
 
     <footer>
-        <p>
-            © <span id="currentyear"></span>
-            Okubalu Ebuka Prince | Nigeria
-        </p>
-
-        <p id="lastModified"></p>
+        <p>&copy; 2026 BookVerse</p>
+        <a href="references.html">References</a>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
